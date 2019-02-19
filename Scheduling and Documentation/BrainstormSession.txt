@@ -2,7 +2,7 @@
 
 Ideas for basic technical demonstrations 
 	-Open/close/kick down door
-		-Door that slides open
+		X-Door that slides open
 		-Door that swings open
 	-Wall Climb(Emulate same behavior in apex)
 	-Target range AI 
