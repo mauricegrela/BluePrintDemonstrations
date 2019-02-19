@@ -1,0 +1,23 @@
+2019-02-18 Brainstorm session
+
+Ideas for basic technical demonstrations 
+	-Open/close/kick down door
+	-Wall Climb(Emulate same behavior in apex)
+	-Target range AI 
+
+Ideas for more complex technical demonstrations
+-M32 Grenade Launcher 
+	Rounds:
+		-High Explosive
+		-Tear Gas
+		-Air burst 
+		-MP-APERS (Twenty 24-grain metal pellets)
+	Funtionality
+		-Loading custom shells 
+		-Reloading
+		-Parameterize variables
+	Aesthetics
+		-Find a M32 Grenade model to import
+		
+		
+	
