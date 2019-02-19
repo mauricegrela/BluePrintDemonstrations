@@ -566,3 +566,378 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.02.19-01.33.02:021][688]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
 [2019.02.19-01.33.02:021][688]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
 [2019.02.19-01.40.35:367][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-02.04.56:770][852]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-02.05.02:925][584]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-02.05.45:961][584]LogSlate: Window 'Save Level As' being destroyed
+[2019.02.19-02.05.47:075][712]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-02.05.48:855][924]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-02.06.10:220][924]LogSlate: Window 'Save Level As' being destroyed
+[2019.02.19-02.06.10:911][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-02.06.30:757][258]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (44.762 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.02.19-02.07.13:799][239]LogSlate: Window 'Save Level As' being destroyed
+[2019.02.19-02.07.13:808][239]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.19-02.07.18:588][239]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
+[2019.02.19-02.07.19:096][239]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap20C22ECA403AA69F37049AABCA0869FF.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.19-02.07.20:368][239]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDF7EE4048408B52042FB857AB9366AE8E.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
+[2019.02.19-02.07.20:384][239]LogFileHelpers: Saving map 'FirstPersonExampleDoorMap' took 6.581
+[2019.02.19-02.07.20:402][239]LightingResults: New page: Lighting Build
+[2019.02.19-02.07.20:403][239]LoadErrors: New page: Loading map: FirstPersonExampleDoorMap.umap
+[2019.02.19-02.07.20:428][239]MapCheck: New page: Map Check
+[2019.02.19-02.07.20:428][239]LightingResults: New page: Lighting Build
+[2019.02.19-02.07.20:649][239]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.19-02.07.20:892][239]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.19-02.07.20:892][239]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.157ms to complete.
+[2019.02.19-02.07.20:892][239]LogFileHelpers: Loading map 'FirstPersonExampleDoorMap' took 0.508
+[2019.02.19-02.08.01:815][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-02.08.07:940][376]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-02.08.08:304][376]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap077F3AE34DA6EDE48D726D80285C6685.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.19-02.08.09:533][376]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDF1A212B540951DDDE4C08BB9C97B6CE2.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
+[2019.02.19-02.09.29:685][846]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-02.09.29:785][858]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.19-02.09.29:871][858]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-02.09.29:921][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-02.09.29:945][858]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 18, 2019, 10:09:29 AM)
+[2019.02.19-02.09.30:008][858]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
+[2019.02.19-02.09.30:032][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023568s)
+[2019.02.19-02.09.30:033][858]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
+[2019.02.19-02.09.30:052][858]LogPlayLevel: PIE: World Init took: (0.019898s)
+[2019.02.19-02.09.30:052][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.043889s)
+[2019.02.19-02.09.30:199][858]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.19-02.09.30:212][858]LogInit: FAudioDevice initialized.
+[2019.02.19-02.09.30:257][858]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.02.19-02.09.30:351][858]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.18-18.09.30
+[2019.02.19-02.09.30:373][858]LogWorld: Bringing up level for play took: 0.044749
+[2019.02.19-02.09.30:705][858]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2019.02.19-02.09.30:722][858]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap 1.113
+[2019.02.19-02.09.30:723][858]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-02.09.52:646][421]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-596.013 Y=997.608 Z=330.177] for [FirstPersonProjectile_C]
+[2019.02.19-02.10.03:271][696]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1286.991 Y=907.504 Z=284.039] for [FirstPersonProjectile_C]
+[2019.02.19-02.10.04:138][800]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1303.779 Y=897.930 Z=259.304] for [FirstPersonProjectile_C]
+[2019.02.19-02.10.04:355][826]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1307.089 Y=915.141 Z=299.762] for [FirstPersonProjectile_C]
+[2019.02.19-02.10.04:529][847]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1309.259 Y=916.081 Z=308.167] for [FirstPersonProjectile_C]
+[2019.02.19-02.10.04:746][873]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1288.315 Y=936.550 Z=296.067] for [FirstPersonProjectile_C]
+[2019.02.19-02.10.08:055][270]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-02.10.08:055][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-02.10.08:111][270]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-02.10.08:111][270]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-02.10.08:256][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-02.10.08:340][271]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.02.19-04.30.50:590][785]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-04.30.55:598][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.31.00:039][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2019.02.19-04.31.00:748][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2019.02.19-04.31.00:968][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2019.02.19-04.31.15:159][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
+[2019.02.19-04.31.15:586][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
+[2019.02.19-04.31.18:450][883]Cmd: TRANSACTION UNDO
+[2019.02.19-04.31.18:450][883]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.31.21:952][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.31.25:350][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
+[2019.02.19-04.31.44:646][774]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BigWall2)
+[2019.02.19-04.31.44:809][774]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-04.31.49:325][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2019.02.19-04.31.52:240][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
+[2019.02.19-04.31.58:174][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
+[2019.02.19-04.32.01:619][565]Cmd: DELETE
+[2019.02.19-04.32.01:639][565]Cmd: ACTOR DELETE
+[2019.02.19-04.32.01:833][565]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.19-04.32.01:964][565]LogEditorActor: Deleted 1 Actors (0.167 secs)
+[2019.02.19-04.32.02:674][648]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.02:674][648]LogEditorTransaction: Undo Delete Actors
+[2019.02.19-04.32.03:189][678]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.03:190][678]LogEditorTransaction: Undo Modifier [Delete]
+[2019.02.19-04.32.03:406][699]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.03:406][699]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.32.03:621][722]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.03:621][722]LogEditorTransaction: Undo Clicking on Actors
+[2019.02.19-04.32.03:867][746]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.03:867][746]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.32.04:129][775]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.04:129][775]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.32.04:378][804]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.04:378][804]LogEditorTransaction: Undo Clicking on Actors
+[2019.02.19-04.32.05:686][953]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.05:686][953]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.32.05:879][974]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.05:879][974]LogEditorTransaction: Undo Clicking on Actors
+[2019.02.19-04.32.06:067][989]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.06:068][989]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.02.19-04.32.06:251][  7]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.06:251][  7]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.32.06:431][ 26]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.06:431][ 26]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.32.06:616][ 47]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.06:616][ 47]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.32.06:815][ 70]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.06:815][ 70]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.32.07:015][ 93]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.07:015][ 93]LogEditorTransaction: Undo Clicking on Actors
+[2019.02.19-04.32.07:184][111]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.07:184][111]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.32.07:382][132]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.07:382][132]LogEditorTransaction: Undo Clicking on Actors
+[2019.02.19-04.32.08:757][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2019.02.19-04.32.11:324][584]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.11:324][584]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.32.12:075][653]Cmd: EDIT COPY
+[2019.02.19-04.32.12:287][672]Cmd: EDIT PASTE
+[2019.02.19-04.32.24:564][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-04.32.25:470][  3]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap8BD65E3C4CB77DB875D590AE542CF599.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.19-04.32.26:982][  3]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDCC9D96A843D8271362C60EBA1B3D1816.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
+[2019.02.19-04.32.29:345][273]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.29:345][273]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.32.32:277][600]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.32:277][600]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.32.33:134][701]Cmd: EDIT COPY
+[2019.02.19-04.32.33:340][725]Cmd: EDIT PASTE
+[2019.02.19-04.32.39:963][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube15)
+[2019.02.19-04.32.44:245][905]Cmd: TRANSACTION UNDO
+[2019.02.19-04.32.44:246][905]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.32.45:833][ 69]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.02.19-04.32.47:472][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.32.49:255][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube17)
+[2019.02.19-04.32.54:862][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.32.59:240][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube20)
+[2019.02.19-04.33.01:852][809]Cmd: EDIT COPY
+[2019.02.19-04.33.02:093][835]Cmd: EDIT PASTE
+[2019.02.19-04.33.05:251][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.33.31:813][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube22)
+[2019.02.19-04.37.46:108][611]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-04.39.06:673][761]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.19-04.39.21:933][570]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonDoor/Blueprints/DoorSwing.DoorSwing
+[2019.02.19-04.39.23:336][570]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 117 classes and 0 folders.
+[2019.02.19-04.40.07:371][909]LogRenderer: Reallocating scene render targets to support 1208x880 Format 10 NumSamples 1 (Frame:228).
+[2019.02.19-04.40.30:251][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.40.30:604][323]LogSlate: Took 0.023957 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.19-04.40.47:146][964]Cmd: TRANSACTION UNDO
+[2019.02.19-04.40.47:146][964]LogEditorTransaction: Undo Move Actors
+[2019.02.19-04.40.48:105][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.41.16:719][395]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2019.02.19-04.41.16:782][395]LogStaticMesh: Building static mesh StaticMesh...
+[2019.02.19-04.41.16:861][395]LogStaticMesh: Built static mesh [0.08s] /Game/FirstPersonDoor/StaticMeshes/StaticMesh.StaticMesh
+[2019.02.19-04.41.23:876][ 36]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/FirstPersonDoor/StaticMeshes/StaticMesh.StaticMesh
+[2019.02.19-04.41.26:558][150]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:115).
+[2019.02.19-04.41.31:038][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.41.43:081][616]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-04.42.06:686][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.42.27:565][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.43.14:382][ 48]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing5283246946137A4B3B482E9AF420B18E.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
+[2019.02.19-04.43.18:324][293]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-04.43.36:120][653]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-04.44.03:112][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.44.30:500][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.44.44:279][915]LogEditorTransaction: Undo Set Scale
+[2019.02.19-04.44.46:310][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.44.53:032][757]LogEditorTransaction: Undo Set Scale
+[2019.02.19-04.44.54:254][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.44.57:020][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.45.01:694][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.45.07:679][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.45.13:714][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.45.31:626][304]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-04.45.31:735][304]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwingFEE2E33A4EA2BAE8F8EF9FA4DB85D1C5.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
+[2019.02.19-04.46.09:890][699]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_Auto1E3BF897F4D7DE727F600AB82CDBE41CA.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Autosaves/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_Auto1.umap'
+[2019.02.19-04.46.09:893][699]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap' took 0.501
+[2019.02.19-04.46.09:893][699]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.501
+[2019.02.19-04.46.09:896][699]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonDoor/Blueprints/DoorSwing] ([1] browsable assets)...
+[2019.02.19-04.46.09:914][699]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonDoor/Blueprints/DoorSwing.DoorSwing]
+[2019.02.19-04.46.09:914][699]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonDoor/Blueprints/DoorSwing]
+[2019.02.19-04.46.09:980][699]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing_Auto1F674481B4D0C060E87C2839DD8BAA2DE.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Autosaves/Game/FirstPersonDoor/Blueprints/DoorSwing_Auto1.uasset'
+[2019.02.19-04.46.09:981][699]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonDoor/StaticMeshes/StaticMesh] ([1] browsable assets)...
+[2019.02.19-04.46.10:000][699]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonDoor/StaticMeshes/StaticMesh.StaticMesh]
+[2019.02.19-04.46.10:000][699]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonDoor/StaticMeshes/StaticMesh]
+[2019.02.19-04.46.10:021][699]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/StaticMesh_Auto1BA959A0E4BA45F2EA440FAA6672E4665.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Autosaves/Game/FirstPersonDoor/StaticMeshes/StaticMesh_Auto1.uasset'
+[2019.02.19-04.46.10:022][699]LogFileHelpers: Auto-saving content packages took 0.127
+[2019.02.19-04.46.29:787][695]BlueprintLog: New page: Compile DoorSwing
+[2019.02.19-04.46.36:594][937]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing879BA55B49FA75B5F51AAC90322442B7.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
+[2019.02.19-04.46.41:770][253]Cmd: DELETE
+[2019.02.19-04.46.41:772][253]Cmd: ACTOR DELETE
+[2019.02.19-04.46.41:776][253]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.19-04.46.41:922][253]LogEditorActor: Deleted 1 Actors (0.150 secs)
+[2019.02.19-04.46.44:377][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.47.08:277][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.47.09:024][833]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap6810B52C48E56A5B50E34097655C0317.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.19-04.47.10:300][833]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDCD9E262C465E872E902A2C9A0EE01EF7.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
+[2019.02.19-04.47.19:630][355]LogSlate: Took 0.031530 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.19-04.51.04:679][895]LogSlate: Took 0.029861 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.02.19-04.54.03:143][632]BlueprintLog: New page: Compile DoorSwing
+[2019.02.19-04.54.05:227][685]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing2DAC7E124920B853D7F021BE2A00BFDA.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
+[2019.02.19-04.54.21:547][887]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwingBDA05A764948C34333253DA5C56BB628.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
+[2019.02.19-04.54.22:194][901]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMapEEACB54843CBE7B18226AA9943D3CCA2.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.19-04.54.23:721][901]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDA2A1A2644474FEA70C3B98B12E1CBF52.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
+[2019.02.19-04.54.27:121][912]BlueprintLog: New page: Compile DoorSwing
+[2019.02.19-04.54.27:692][928]BlueprintLog: New page: Compile DoorSwing
+[2019.02.19-04.54.28:477][961]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing81F0D3EC4D38BCA9F966EE9C21FE176A.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
+[2019.02.19-04.56.31:695][888]BlueprintLog: New page: Compile DoorSwing
+[2019.02.19-04.57.47:432][697]LogEditorTransaction: Undo Add Key(s)
+[2019.02.19-04.57.47:802][726]LogEditorTransaction: Undo Add Key(s)
+[2019.02.19-04.59.27:412][832]BlueprintLog: New page: Compile DoorSwing
+[2019.02.19-04.59.29:725][ 38]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwingFC6B7F214732713F7A69919E62570D8F.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
+[2019.02.19-05.03.10:512][374]BlueprintLog: New page: Compile DoorSwing
+[2019.02.19-05.03.36:165][751]BlueprintLog: New page: Compile DoorSwing
+[2019.02.19-05.03.38:058][816]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing935858274068EC0EBE39BDAD6DCD8770.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
+[2019.02.19-05.03.55:780][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-05.04.02:735][447]LogLinker: Warning: Can't find file '/Game/FirstPersonDoor/StaticMeshes/StaticMesh'
+[2019.02.19-05.04.02:735][447]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonDoor/StaticMeshes/StaticMesh' while loading ../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset.
+[2019.02.19-05.04.02:735][447]LoadErrors: Error: /Game/FirstPersonDoor/Blueprints/DoorSwing : Can't find file for asset. /Game/FirstPersonDoor/StaticMeshes/StaticMesh
+[2019.02.19-05.04.02:735][447]LogLinker: Warning: Can't find file '/Game/FirstPersonDoor/StaticMeshes/StaticMesh'
+[2019.02.19-05.04.02:735][447]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonDoor/StaticMeshes/StaticMesh' while loading ../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset.
+[2019.02.19-05.04.03:182][447]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap58C49DC54AFF13E76F2039AD4EAC6E56.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.19-05.04.03:319][447]LogFileHelpers: Saving map 'FirstPersonExampleDoorMap' took 0.570
+[2019.02.19-05.04.06:897][873]LogEditorViewport: Clicking on Actor (LMB): DoorSwing_C (DoorSwing)
+[2019.02.19-05.04.13:977][718]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-05.04.15:393][873]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.19-05.04.15:410][873]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.04.15:411][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-05.04.15:411][873]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 18, 2019, 1:04:15 PM)
+[2019.02.19-05.04.15:411][873]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
+[2019.02.19-05.04.15:434][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023123s)
+[2019.02.19-05.04.15:435][873]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
+[2019.02.19-05.04.15:435][873]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2019.02.19-05.04.15:435][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.024338s)
+[2019.02.19-05.04.15:593][873]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.19-05.04.15:606][873]LogInit: FAudioDevice initialized.
+[2019.02.19-05.04.15:639][873]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.02.19-05.04.15:643][873]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.18-21.04.15
+[2019.02.19-05.04.15:658][873]LogWorld: Bringing up level for play took: 0.017652
+[2019.02.19-05.04.15:671][873]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap 0.063
+[2019.02.19-05.04.15:671][873]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.04.27:653][304]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.04.27:654][304]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-05.04.27:693][304]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-05.04.27:693][304]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.04.27:847][304]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-05.04.27:863][305]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.02.19-05.04.35:883][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-05.04.38:076][624]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-05.04.39:971][833]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-05.04.40:048][833]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/StaticMesh5A70B08A429D8EAEB7F604A68E4FF18B.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/StaticMeshes/StaticMesh.uasset'
+[2019.02.19-05.04.43:602][176]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-05.05.49:563][631]BlueprintLog: New page: Compile DoorSwing
+[2019.02.19-05.05.51:434][800]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.19-05.05.51:457][800]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.05.51:457][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-05.05.51:457][800]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 18, 2019, 1:05:51 PM)
+[2019.02.19-05.05.51:457][800]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
+[2019.02.19-05.05.51:480][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023086s)
+[2019.02.19-05.05.51:481][800]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
+[2019.02.19-05.05.51:481][800]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2019.02.19-05.05.51:481][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.024245s)
+[2019.02.19-05.05.51:633][800]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.19-05.05.51:645][800]LogInit: FAudioDevice initialized.
+[2019.02.19-05.05.51:678][800]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.02.19-05.05.51:681][800]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.18-21.05.51
+[2019.02.19-05.05.51:682][800]LogWorld: Bringing up level for play took: 0.002640
+[2019.02.19-05.05.51:695][800]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap 0.087
+[2019.02.19-05.05.51:695][800]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.05.53:512][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-05.06.01:848][992]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.06.01:849][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-05.06.01:891][992]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-05.06.01:891][992]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.06.02:014][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-05.06.02:036][993]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.02.19-05.06.05:087][350]LogEditorViewport: Clicking on Actor (LMB): DoorSwing_C (DoorSwing)
+[2019.02.19-05.06.06:663][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-05.06.45:034][216]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwingF891135E4BC8A4DDF98621BAB868FDFD.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
+[2019.02.19-05.06.45:099][220]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-05.06.45:550][220]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMapCBBE4F404FDD34A3CDB623A274BCCB95.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.19-05.06.46:931][220]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDCF2A51BF47B98999916642A7DD3E5C36.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
+[2019.02.19-05.06.47:044][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-05.06.47:191][240]BlueprintLog: New page: Compile DoorSwing
+[2019.02.19-05.06.57:699][256]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwingAE0797184D12F7D4901192AFCC2F4950.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
+[2019.02.19-05.06.58:772][356]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-05.07.01:098][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-05.07.05:888][139]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.19-05.07.05:905][139]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.07.05:906][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-05.07.05:906][139]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 18, 2019, 1:07:05 PM)
+[2019.02.19-05.07.05:906][139]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
+[2019.02.19-05.07.05:934][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027738s)
+[2019.02.19-05.07.05:935][139]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
+[2019.02.19-05.07.05:935][139]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2019.02.19-05.07.05:935][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.029240s)
+[2019.02.19-05.07.06:085][139]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.19-05.07.06:097][139]LogInit: FAudioDevice initialized.
+[2019.02.19-05.07.06:130][139]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.02.19-05.07.06:134][139]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.18-21.07.06
+[2019.02.19-05.07.06:134][139]LogWorld: Bringing up level for play took: 0.003599
+[2019.02.19-05.07.06:147][139]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap 0.539
+[2019.02.19-05.07.06:147][139]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.07.13:584][ 15]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.07.13:585][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-05.07.13:626][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-05.07.13:627][ 15]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.07.13:781][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-05.07.13:802][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.02.19-05.07.46:024][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-05.08.12:319][120]LogEditorViewport: Clicking on Actor (LMB): DoorSwing_C (DoorSwing)
+[2019.02.19-05.08.13:661][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-05.08.26:719][442]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing6BB8F7284761F741145CBDA887B1BF56.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
+[2019.02.19-05.08.27:269][450]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap3C83E3D44DBC1BC44F57F0A887D10CE2.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.19-05.08.28:470][450]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltD96567DF64FC16A7940EB5AA0EE5EEE55.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
+[2019.02.19-05.08.30:052][581]BlueprintLog: New page: Compile DoorSwing
+[2019.02.19-05.08.33:450][861]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing682146C84B061D4D583FF9AA84266832.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
+[2019.02.19-05.08.36:121][ 91]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.19-05.08.36:139][ 91]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.08.36:139][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-05.08.36:139][ 91]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 18, 2019, 1:08:36 PM)
+[2019.02.19-05.08.36:140][ 91]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
+[2019.02.19-05.08.36:162][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022328s)
+[2019.02.19-05.08.36:163][ 91]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
+[2019.02.19-05.08.36:163][ 91]LogPlayLevel: PIE: World Init took: (0.001284s)
+[2019.02.19-05.08.36:163][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.023805s)
+[2019.02.19-05.08.36:310][ 91]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.19-05.08.36:323][ 91]LogInit: FAudioDevice initialized.
+[2019.02.19-05.08.36:352][ 91]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.02.19-05.08.36:355][ 91]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.18-21.08.36
+[2019.02.19-05.08.36:356][ 91]LogWorld: Bringing up level for play took: 0.002682
+[2019.02.19-05.08.36:369][ 91]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap 0.76
+[2019.02.19-05.08.36:369][ 91]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.08.55:447][213]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.08.55:448][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-05.08.55:491][213]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-05.08.55:492][213]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.08.55:625][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-05.08.55:683][214]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.02.19-05.08.56:512][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-05.09.07:868][532]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing5C61779F4348EC58AD9519B05A850E87.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
+[2019.02.19-05.09.08:497][536]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMapF6EC1D1D452209E8E51AED975490EB0E.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.19-05.09.10:010][536]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDD93D27DC41AAB3112CBA839654D4F8EF.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
+[2019.02.19-05.09.10:542][586]BlueprintLog: New page: Compile DoorSwing
+[2019.02.19-05.09.13:383][804]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap83C5A66F44025A31D7289692F5D11EFB.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.19-05.09.14:612][804]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDDAA774104426F657074FE49EA2493BFD.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
+[2019.02.19-05.09.18:340][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.02.19-05.09.21:473][420]Cmd: TRANSACTION UNDO
+[2019.02.19-05.09.21:473][420]LogEditorTransaction: Undo Move Actors
+[2019.02.19-05.09.22:009][456]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2019.02.19-05.09.27:902][873]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-05.09.28:352][873]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMapC3CC19314C2196724053CC881DB40169.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.19-05.09.29:651][873]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltD3747A21342ACCDCA16AB349B302F5118.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
+[2019.02.19-05.09.33:768][178]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.19-05.09.33:790][178]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.09.33:790][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-05.09.33:790][178]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 18, 2019, 1:09:33 PM)
+[2019.02.19-05.09.33:790][178]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
+[2019.02.19-05.09.33:817][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026923s)
+[2019.02.19-05.09.33:818][178]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
+[2019.02.19-05.09.33:819][178]LogPlayLevel: PIE: World Init took: (0.001180s)
+[2019.02.19-05.09.33:819][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.028253s)
+[2019.02.19-05.09.34:002][178]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.19-05.09.34:015][178]LogInit: FAudioDevice initialized.
+[2019.02.19-05.09.34:049][178]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.02.19-05.09.34:052][178]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.18-21.09.34
+[2019.02.19-05.09.34:053][178]LogWorld: Bringing up level for play took: 0.002651
+[2019.02.19-05.09.34:066][178]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap 0.458
+[2019.02.19-05.09.34:066][178]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.09.44:034][207]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.09.44:034][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-05.09.44:077][207]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-05.09.44:078][207]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.19-05.09.44:222][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-05.09.44:277][208]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.02.19-05.09.45:295][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-05.09.45:881][327]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMapD4C5406347226F49ACE5A58068ACDB45.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.19-05.09.47:112][327]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltD53F95108415F174E4F724E8F459662A9.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
+[2019.02.19-05.09.48:421][468]LogSlate: Window 'DoorSwing' being destroyed
+[2019.02.19-05.09.48:424][468]LogSlate: Window 'DoorSwing' being destroyed
