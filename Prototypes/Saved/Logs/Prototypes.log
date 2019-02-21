@@ -1,4 +1,4 @@
-﻿Log file open, 02/18/19 17:32:02
+﻿Log file open, 02/20/19 22:21:44
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: Prototypes
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.303018
+LogStats: Stats thread started at 0.302087
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.490s to configure plugins.
+LogStreaming: Display: Took  0.150s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -154,790 +154,681 @@ LogInit: Presizing for max 8388607 objects, including 0 objects not considered b
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.02.19-01.32.04:467][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.02.19-01.32.04:467][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Engine.ini]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Engine.ini]
-[2019.02.19-01.32.04:468][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Engine.ini]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Engine.ini]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.02.19-01.32.04:468][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Engine.ini]
-[2019.02.19-01.32.04:468][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Engine.ini]
-[2019.02.19-01.32.04:471][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
-[2019.02.19-01.32.04:471][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.02.19-01.32.04:471][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.02.19-01.32.04:471][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
-[2019.02.19-01.32.04:471][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.02.19-01.32.04:471][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
-[2019.02.19-01.32.04:471][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.02.19-01.32.04:471][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.02.19-01.32.04:471][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.02.19-01.32.04:471][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.02.19-01.32.04:471][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.02.19-01.32.04:471][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.02.19-01.32.04:471][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.02.19-01.32.04:471][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.02.19-01.32.04:472][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.02.19-01.32.04:473][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.02.19-01.32.04:473][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.02.19-01.32.04:473][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.02.19-01.32.04:473][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.02.19-01.32.04:473][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.02.19-01.32.04:473][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.02.19-01.32.04:473][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.02.19-01.32.04:473][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
-[2019.02.19-01.32.04:473][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.02.19-01.32.04:473][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.02.19-01.32.04:473][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.19-01.32.04:473][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.19-01.32.04:587][  0]LogHAL: Display: Platform has ~ 8 GB [8552824832 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.19-01.32.04:587][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.02.19-01.32.04:587][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.19-01.32.04:587][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
-[2019.02.19-01.32.04:587][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.02.19-01.32.04:587][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.02.19-01.32.04:587][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
-[2019.02.19-01.32.04:587][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.02.19-01.32.04:587][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
-[2019.02.19-01.32.04:587][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.02.19-01.32.04:587][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.02.19-01.32.04:587][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.02.19-01.32.04:587][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.02.19-01.32.04:587][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.02.19-01.32.04:587][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.02.19-01.32.04:587][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.02.19-01.32.04:587][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.02.19-01.32.04:587][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.02.19-01.32.04:588][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.02.19-01.32.04:589][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.02.19-01.32.04:589][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Engine.ini]
-[2019.02.19-01.32.04:590][  0]LogInit: Computer: KEVINCHUPC
-[2019.02.19-01.32.04:590][  0]LogInit: User: Passwordis123
-[2019.02.19-01.32.04:590][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.19-01.32.04:590][  0]LogInit: High frequency timer resolution =3.433588 MHz
-[2019.02.19-01.32.04:590][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2019.02.19-01.32.04:590][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.19-01.32.04:590][  0]LogMemory: Process Physical Memory: 100.74 MB used, 100.74 MB peak
-[2019.02.19-01.32.04:590][  0]LogMemory: Process Virtual Memory: 89.60 MB used, 89.60 MB peak
-[2019.02.19-01.32.04:590][  0]LogMemory: Physical Memory: 4871.83 MB used,  3284.78 MB free, 8156.61 MB total
-[2019.02.19-01.32.04:590][  0]LogMemory: Virtual Memory: 496.18 MB used,  134217232.00 MB free, 134217728.00 MB total
-[2019.02.19-01.32.04:612][  0]LogInit: Using OS detected language (en-US).
-[2019.02.19-01.32.04:612][  0]LogInit: Using OS detected locale (en-CA).
-[2019.02.19-01.32.04:613][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.02.19-01.32.05:132][  0]LogStreaming: Display: Took  0.519s to InitEngineTextLocalization.
-[2019.02.19-01.32.05:132][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.19-01.32.05:451][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.19-01.32.05:451][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.19-01.32.05:681][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.19-01.32.05:681][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.19-01.32.05:730][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2019.02.19-01.32.05:730][  0]LogD3D11RHI:       3992/0/4078 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.02.19-01.32.05:731][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.19-01.32.05:731][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.19-01.32.05:731][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.19-01.32.05:738][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.19-01.32.05:738][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2019.02.19-01.32.05:738][  0]LogWindows: EnumDisplayDevices:
-[2019.02.19-01.32.05:738][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2019.02.19-01.32.05:738][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.02.19-01.32.05:738][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.02.19-01.32.05:739][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.02.19-01.32.05:739][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.02.19-01.32.05:739][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2019.02.19-01.32.05:739][  0]LogD3D11RHI:   Driver Version: 416.94 (internal:25.21.14.1694, unified:416.94)
-[2019.02.19-01.32.05:739][  0]LogD3D11RHI:      Driver Date: 11-12-2018
-[2019.02.19-01.32.05:739][  0]LogRHI: Texture pool is 2794 MB (70% of 3992 MB)
-[2019.02.19-01.32.05:766][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.19-01.32.05:827][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.02.19-01.32.06:699][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.19-01.32.06:718][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.19-01.32.06:737][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.19-01.32.06:756][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.19-01.32.06:776][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.19-01.32.06:795][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.19-01.32.06:814][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.19-01.32.06:833][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.19-01.32.06:841][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-01.32.06:958][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.19-01.32.07:031][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.19-01.32.07:031][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.19-01.32.07:068][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.19-01.32.07:068][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.19-01.32.07:087][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.19-01.32.07:107][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.19-01.32.07:126][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.19-01.32.07:146][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.19-01.32.07:217][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.19-01.32.07:217][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.19-01.32.07:217][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.19-01.32.07:280][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Intermediate/Shaders/WorkingDirectory/5524/).
-[2019.02.19-01.32.07:281][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Password is 123/AppData/Local/Temp/UnrealShaderWorkingDir/0FCADF6343955D6D297FD2AC48195454/'.
-[2019.02.19-01.32.07:283][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.19-01.32.07:283][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.19-01.32.07:283][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.19-01.32.08:148][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.19-01.32.08:290][  0]LogDerivedDataCache: Loaded boot cache 0.14s 71MB C:/Users/Password is 123/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.02.19-01.32.08:290][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Password is 123/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.02.19-01.32.08:290][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.19-01.32.08:290][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.19-01.32.08:290][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.19-01.32.08:290][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.19-01.32.08:312][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.19-01.32.08:312][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.19-01.32.08:312][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.02.19-01.32.08:324][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Password is 123/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.19-01.32.08:324][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.19-01.32.08:324][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.19-01.32.08:359][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.19-01.32.08:361][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.19-01.32.08:361][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.19-01.32.08:471][  0]LogAssetRegistry: FAssetRegistry took 0.0394 seconds to start up
-[2019.02.19-01.32.08:982][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.19-01.32.09:185][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.19-01.32.09:188][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.19-01.32.09:188][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.19-01.32.09:188][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.19-01.32.09:188][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.19-01.32.09:208][  0]LogNetVersion: Prototypes 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3306367520)
-[2019.02.19-01.32.10:063][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.215006 seconds
-[2019.02.19-01.32.10:070][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.02.19-01.32.10:071][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
-[2019.02.19-01.32.10:071][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.19-01.32.11:086][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.19-01.32.11:122][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.19-01.32.11:964][  0]SourceControl: Source control is disabled
-[2019.02.19-01.32.11:964][  0]SourceControl: Source control is disabled
-[2019.02.19-01.32.11:966][  0]SourceControl: Source control is disabled
-[2019.02.19-01.32.11:966][  0]SourceControl: Source control is disabled
-[2019.02.19-01.32.12:137][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.19-01.32.12:241][  0]LogOcInput: OculusInput pre-init called
-[2019.02.19-01.32.12:397][  0]LogEngine: Initializing Engine...
-[2019.02.19-01.32.12:398][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.19-01.32.12:399][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.19-01.32.12:399][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.19-01.32.12:399][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.19-01.32.12:399][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.19-01.32.12:751][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.19-01.32.12:767][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.19-01.32.12:827][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.19-01.32.12:841][  0]LogInit: FAudioDevice initialized.
-[2019.02.19-01.32.12:842][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.19-01.32.13:668][  0]LogDerivedDataCache: Saved boot cache 0.83s 71MB C:/Users/Password is 123/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.02.19-01.32.13:683][  0]LogInit: Texture streaming: Enabled
-[2019.02.19-01.32.13:702][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.19-01.32.13:717][  0]LogInit: Transaction tracking system initialized
-[2019.02.19-01.32.13:740][  0]BlueprintLog: New page: Editor Load
-[2019.02.19-01.32.14:017][  0]LocalizationService: Localization service is disabled
-[2019.02.19-01.32.14:815][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/' took 0.01s
-[2019.02.19-01.32.14:815][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.19-01.32.14:816][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.19-01.32.14:816][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.19-01.32.14:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.19-01.32.14:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.19-01.32.14:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.19-01.32.14:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.19-01.32.15:277][  0]SourceControl: Source control is disabled
-[2019.02.19-01.32.15:277][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.19-01.32.15:277][  0]LightingResults: New page: Lighting Build
-[2019.02.19-01.32.15:281][  0]MapCheck: New page: Map Check
-[2019.02.19-01.32.15:281][  0]LightingResults: New page: Lighting Build
-[2019.02.19-01.32.20:256][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.02.19-01.32.20:817][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.19-01.32.20:965][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.19-01.32.20:966][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.176ms to complete.
-[2019.02.19-01.32.20:966][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 5.689
-[2019.02.19-01.32.21:034][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.19-01.32.23:233][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-01.32.23:348][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-01.32.23:357][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-01.32.23:366][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-01.32.24:597][  0]LogCollectionManager: Loaded 0 collections in 0.001410 seconds
-[2019.02.19-01.32.25:974][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Collections/' took 0.01s
-[2019.02.19-01.32.25:974][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/Developers/Passwordis123/Collections/' took 0.01s
-[2019.02.19-01.32.25:974][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/Collections/' took 0.01s
-[2019.02.19-01.32.25:974][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.02.19-01.32.26:065][  0]LogContentBrowser: Native class hierarchy populated in 0.0544 seconds. Added 2651 classes and 620 folders.
-[2019.02.19-01.32.26:468][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.19-01.32.26:470][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:471][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:471][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:472][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:472][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:472][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:473][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:473][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:474][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:474][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:475][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:475][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:476][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:476][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:477][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:477][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:478][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:478][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:479][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:480][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:480][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:481][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:481][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:482][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:482][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:483][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.19-01.32.26:512][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.19-01.32.27:072][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.02.19-01.32.28:530][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.19-01.32.28:532][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.19-01.32.28:759][  0]LogSlate: Took 0.159640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.19-01.32.29:767][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.02.19-01.32.30:741][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.19-01.32.30:741][  0]LogLoad: (Engine Initialization) Total time: 30.88 seconds
-[2019.02.19-01.32.30:741][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.19-01.32.30:842][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.19-01.32.30:925][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.19-01.33.02:019][688]LogAssetRegistry: Asset discovery search completed in 53.5698 seconds
-[2019.02.19-01.33.02:021][688]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.19-01.33.02:021][688]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
-[2019.02.19-01.40.35:367][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-02.04.56:770][852]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-02.05.02:925][584]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-02.05.45:961][584]LogSlate: Window 'Save Level As' being destroyed
-[2019.02.19-02.05.47:075][712]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-02.05.48:855][924]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-02.06.10:220][924]LogSlate: Window 'Save Level As' being destroyed
-[2019.02.19-02.06.10:911][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-02.06.30:757][258]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (44.762 sec). This should never happen. Something is wrong with the timer delegate!
-[2019.02.19-02.07.13:799][239]LogSlate: Window 'Save Level As' being destroyed
-[2019.02.19-02.07.13:808][239]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.19-02.07.18:588][239]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
-[2019.02.19-02.07.19:096][239]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap20C22ECA403AA69F37049AABCA0869FF.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
-[2019.02.19-02.07.20:368][239]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDF7EE4048408B52042FB857AB9366AE8E.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
-[2019.02.19-02.07.20:384][239]LogFileHelpers: Saving map 'FirstPersonExampleDoorMap' took 6.581
-[2019.02.19-02.07.20:402][239]LightingResults: New page: Lighting Build
-[2019.02.19-02.07.20:403][239]LoadErrors: New page: Loading map: FirstPersonExampleDoorMap.umap
-[2019.02.19-02.07.20:428][239]MapCheck: New page: Map Check
-[2019.02.19-02.07.20:428][239]LightingResults: New page: Lighting Build
-[2019.02.19-02.07.20:649][239]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.19-02.07.20:892][239]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.19-02.07.20:892][239]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.157ms to complete.
-[2019.02.19-02.07.20:892][239]LogFileHelpers: Loading map 'FirstPersonExampleDoorMap' took 0.508
-[2019.02.19-02.08.01:815][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-02.08.07:940][376]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-02.08.08:304][376]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap077F3AE34DA6EDE48D726D80285C6685.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
-[2019.02.19-02.08.09:533][376]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDF1A212B540951DDDE4C08BB9C97B6CE2.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
-[2019.02.19-02.09.29:685][846]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-02.09.29:785][858]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.19-02.09.29:871][858]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-02.09.29:921][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.19-02.09.29:945][858]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 18, 2019, 10:09:29 AM)
-[2019.02.19-02.09.30:008][858]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
-[2019.02.19-02.09.30:032][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023568s)
-[2019.02.19-02.09.30:033][858]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
-[2019.02.19-02.09.30:052][858]LogPlayLevel: PIE: World Init took: (0.019898s)
-[2019.02.19-02.09.30:052][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.043889s)
-[2019.02.19-02.09.30:199][858]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.19-02.09.30:212][858]LogInit: FAudioDevice initialized.
-[2019.02.19-02.09.30:257][858]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.02.19-02.09.30:351][858]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.18-18.09.30
-[2019.02.19-02.09.30:373][858]LogWorld: Bringing up level for play took: 0.044749
-[2019.02.19-02.09.30:705][858]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
-[2019.02.19-02.09.30:722][858]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap 1.113
-[2019.02.19-02.09.30:723][858]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-02.09.52:646][421]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-596.013 Y=997.608 Z=330.177] for [FirstPersonProjectile_C]
-[2019.02.19-02.10.03:271][696]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1286.991 Y=907.504 Z=284.039] for [FirstPersonProjectile_C]
-[2019.02.19-02.10.04:138][800]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1303.779 Y=897.930 Z=259.304] for [FirstPersonProjectile_C]
-[2019.02.19-02.10.04:355][826]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1307.089 Y=915.141 Z=299.762] for [FirstPersonProjectile_C]
-[2019.02.19-02.10.04:529][847]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1309.259 Y=916.081 Z=308.167] for [FirstPersonProjectile_C]
-[2019.02.19-02.10.04:746][873]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1288.315 Y=936.550 Z=296.067] for [FirstPersonProjectile_C]
-[2019.02.19-02.10.08:055][270]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-02.10.08:055][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-02.10.08:111][270]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.19-02.10.08:111][270]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-02.10.08:256][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-02.10.08:340][271]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2019.02.19-04.30.50:590][785]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-04.30.55:598][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.31.00:039][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
-[2019.02.19-04.31.00:748][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
-[2019.02.19-04.31.00:968][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
-[2019.02.19-04.31.15:159][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
-[2019.02.19-04.31.15:586][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
-[2019.02.19-04.31.18:450][883]Cmd: TRANSACTION UNDO
-[2019.02.19-04.31.18:450][883]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.31.21:952][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.31.25:350][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
-[2019.02.19-04.31.44:646][774]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BigWall2)
-[2019.02.19-04.31.44:809][774]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-04.31.49:325][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
-[2019.02.19-04.31.52:240][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
-[2019.02.19-04.31.58:174][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
-[2019.02.19-04.32.01:619][565]Cmd: DELETE
-[2019.02.19-04.32.01:639][565]Cmd: ACTOR DELETE
-[2019.02.19-04.32.01:833][565]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.02.19-04.32.01:964][565]LogEditorActor: Deleted 1 Actors (0.167 secs)
-[2019.02.19-04.32.02:674][648]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.02:674][648]LogEditorTransaction: Undo Delete Actors
-[2019.02.19-04.32.03:189][678]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.03:190][678]LogEditorTransaction: Undo Modifier [Delete]
-[2019.02.19-04.32.03:406][699]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.03:406][699]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.32.03:621][722]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.03:621][722]LogEditorTransaction: Undo Clicking on Actors
-[2019.02.19-04.32.03:867][746]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.03:867][746]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.32.04:129][775]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.04:129][775]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.32.04:378][804]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.04:378][804]LogEditorTransaction: Undo Clicking on Actors
-[2019.02.19-04.32.05:686][953]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.05:686][953]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.32.05:879][974]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.05:879][974]LogEditorTransaction: Undo Clicking on Actors
-[2019.02.19-04.32.06:067][989]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.06:068][989]LogEditorTransaction: Undo Clicking on Actors (context menu)
-[2019.02.19-04.32.06:251][  7]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.06:251][  7]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.32.06:431][ 26]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.06:431][ 26]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.32.06:616][ 47]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.06:616][ 47]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.32.06:815][ 70]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.06:815][ 70]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.32.07:015][ 93]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.07:015][ 93]LogEditorTransaction: Undo Clicking on Actors
-[2019.02.19-04.32.07:184][111]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.07:184][111]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.32.07:382][132]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.07:382][132]LogEditorTransaction: Undo Clicking on Actors
-[2019.02.19-04.32.08:757][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
-[2019.02.19-04.32.11:324][584]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.11:324][584]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.32.12:075][653]Cmd: EDIT COPY
-[2019.02.19-04.32.12:287][672]Cmd: EDIT PASTE
-[2019.02.19-04.32.24:564][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-04.32.25:470][  3]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap8BD65E3C4CB77DB875D590AE542CF599.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
-[2019.02.19-04.32.26:982][  3]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDCC9D96A843D8271362C60EBA1B3D1816.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
-[2019.02.19-04.32.29:345][273]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.29:345][273]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.32.32:277][600]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.32:277][600]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.32.33:134][701]Cmd: EDIT COPY
-[2019.02.19-04.32.33:340][725]Cmd: EDIT PASTE
-[2019.02.19-04.32.39:963][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube15)
-[2019.02.19-04.32.44:245][905]Cmd: TRANSACTION UNDO
-[2019.02.19-04.32.44:246][905]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.32.45:833][ 69]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2019.02.19-04.32.47:472][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.32.49:255][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube17)
-[2019.02.19-04.32.54:862][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.32.59:240][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube20)
-[2019.02.19-04.33.01:852][809]Cmd: EDIT COPY
-[2019.02.19-04.33.02:093][835]Cmd: EDIT PASTE
-[2019.02.19-04.33.05:251][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.33.31:813][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube22)
-[2019.02.19-04.37.46:108][611]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-04.39.06:673][761]LogSlate: Window 'Pick Parent Class' being destroyed
-[2019.02.19-04.39.21:933][570]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonDoor/Blueprints/DoorSwing.DoorSwing
-[2019.02.19-04.39.23:336][570]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 117 classes and 0 folders.
-[2019.02.19-04.40.07:371][909]LogRenderer: Reallocating scene render targets to support 1208x880 Format 10 NumSamples 1 (Frame:228).
-[2019.02.19-04.40.30:251][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.40.30:604][323]LogSlate: Took 0.023957 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.02.19-04.40.47:146][964]Cmd: TRANSACTION UNDO
-[2019.02.19-04.40.47:146][964]LogEditorTransaction: Undo Move Actors
-[2019.02.19-04.40.48:105][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.41.16:719][395]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
-[2019.02.19-04.41.16:782][395]LogStaticMesh: Building static mesh StaticMesh...
-[2019.02.19-04.41.16:861][395]LogStaticMesh: Built static mesh [0.08s] /Game/FirstPersonDoor/StaticMeshes/StaticMesh.StaticMesh
-[2019.02.19-04.41.23:876][ 36]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/FirstPersonDoor/StaticMeshes/StaticMesh.StaticMesh
-[2019.02.19-04.41.26:558][150]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:115).
-[2019.02.19-04.41.31:038][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.41.43:081][616]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-04.42.06:686][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.42.27:565][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.43.14:382][ 48]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing5283246946137A4B3B482E9AF420B18E.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
-[2019.02.19-04.43.18:324][293]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-04.43.36:120][653]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-04.44.03:112][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.44.30:500][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.44.44:279][915]LogEditorTransaction: Undo Set Scale
-[2019.02.19-04.44.46:310][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.44.53:032][757]LogEditorTransaction: Undo Set Scale
-[2019.02.19-04.44.54:254][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.44.57:020][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.45.01:694][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.45.07:679][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.45.13:714][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.45.31:626][304]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-04.45.31:735][304]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwingFEE2E33A4EA2BAE8F8EF9FA4DB85D1C5.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
-[2019.02.19-04.46.09:890][699]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_Auto1E3BF897F4D7DE727F600AB82CDBE41CA.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Autosaves/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_Auto1.umap'
-[2019.02.19-04.46.09:893][699]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap' took 0.501
-[2019.02.19-04.46.09:893][699]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.501
-[2019.02.19-04.46.09:896][699]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonDoor/Blueprints/DoorSwing] ([1] browsable assets)...
-[2019.02.19-04.46.09:914][699]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonDoor/Blueprints/DoorSwing.DoorSwing]
-[2019.02.19-04.46.09:914][699]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonDoor/Blueprints/DoorSwing]
-[2019.02.19-04.46.09:980][699]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing_Auto1F674481B4D0C060E87C2839DD8BAA2DE.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Autosaves/Game/FirstPersonDoor/Blueprints/DoorSwing_Auto1.uasset'
-[2019.02.19-04.46.09:981][699]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonDoor/StaticMeshes/StaticMesh] ([1] browsable assets)...
-[2019.02.19-04.46.10:000][699]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonDoor/StaticMeshes/StaticMesh.StaticMesh]
-[2019.02.19-04.46.10:000][699]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonDoor/StaticMeshes/StaticMesh]
-[2019.02.19-04.46.10:021][699]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/StaticMesh_Auto1BA959A0E4BA45F2EA440FAA6672E4665.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Autosaves/Game/FirstPersonDoor/StaticMeshes/StaticMesh_Auto1.uasset'
-[2019.02.19-04.46.10:022][699]LogFileHelpers: Auto-saving content packages took 0.127
-[2019.02.19-04.46.29:787][695]BlueprintLog: New page: Compile DoorSwing
-[2019.02.19-04.46.36:594][937]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing879BA55B49FA75B5F51AAC90322442B7.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
-[2019.02.19-04.46.41:770][253]Cmd: DELETE
-[2019.02.19-04.46.41:772][253]Cmd: ACTOR DELETE
-[2019.02.19-04.46.41:776][253]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.02.19-04.46.41:922][253]LogEditorActor: Deleted 1 Actors (0.150 secs)
-[2019.02.19-04.46.44:377][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.47.08:277][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.47.09:024][833]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap6810B52C48E56A5B50E34097655C0317.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
-[2019.02.19-04.47.10:300][833]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDCD9E262C465E872E902A2C9A0EE01EF7.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
-[2019.02.19-04.47.19:630][355]LogSlate: Took 0.031530 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.02.19-04.51.04:679][895]LogSlate: Took 0.029861 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2019.02.19-04.54.03:143][632]BlueprintLog: New page: Compile DoorSwing
-[2019.02.19-04.54.05:227][685]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing2DAC7E124920B853D7F021BE2A00BFDA.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
-[2019.02.19-04.54.21:547][887]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwingBDA05A764948C34333253DA5C56BB628.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
-[2019.02.19-04.54.22:194][901]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMapEEACB54843CBE7B18226AA9943D3CCA2.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
-[2019.02.19-04.54.23:721][901]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDA2A1A2644474FEA70C3B98B12E1CBF52.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
-[2019.02.19-04.54.27:121][912]BlueprintLog: New page: Compile DoorSwing
-[2019.02.19-04.54.27:692][928]BlueprintLog: New page: Compile DoorSwing
-[2019.02.19-04.54.28:477][961]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing81F0D3EC4D38BCA9F966EE9C21FE176A.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
-[2019.02.19-04.56.31:695][888]BlueprintLog: New page: Compile DoorSwing
-[2019.02.19-04.57.47:432][697]LogEditorTransaction: Undo Add Key(s)
-[2019.02.19-04.57.47:802][726]LogEditorTransaction: Undo Add Key(s)
-[2019.02.19-04.59.27:412][832]BlueprintLog: New page: Compile DoorSwing
-[2019.02.19-04.59.29:725][ 38]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwingFC6B7F214732713F7A69919E62570D8F.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
-[2019.02.19-05.03.10:512][374]BlueprintLog: New page: Compile DoorSwing
-[2019.02.19-05.03.36:165][751]BlueprintLog: New page: Compile DoorSwing
-[2019.02.19-05.03.38:058][816]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing935858274068EC0EBE39BDAD6DCD8770.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
-[2019.02.19-05.03.55:780][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-05.04.02:735][447]LogLinker: Warning: Can't find file '/Game/FirstPersonDoor/StaticMeshes/StaticMesh'
-[2019.02.19-05.04.02:735][447]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonDoor/StaticMeshes/StaticMesh' while loading ../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset.
-[2019.02.19-05.04.02:735][447]LoadErrors: Error: /Game/FirstPersonDoor/Blueprints/DoorSwing : Can't find file for asset. /Game/FirstPersonDoor/StaticMeshes/StaticMesh
-[2019.02.19-05.04.02:735][447]LogLinker: Warning: Can't find file '/Game/FirstPersonDoor/StaticMeshes/StaticMesh'
-[2019.02.19-05.04.02:735][447]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonDoor/StaticMeshes/StaticMesh' while loading ../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset.
-[2019.02.19-05.04.03:182][447]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap58C49DC54AFF13E76F2039AD4EAC6E56.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
-[2019.02.19-05.04.03:319][447]LogFileHelpers: Saving map 'FirstPersonExampleDoorMap' took 0.570
-[2019.02.19-05.04.06:897][873]LogEditorViewport: Clicking on Actor (LMB): DoorSwing_C (DoorSwing)
-[2019.02.19-05.04.13:977][718]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-05.04.15:393][873]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.19-05.04.15:410][873]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.04.15:411][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.19-05.04.15:411][873]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 18, 2019, 1:04:15 PM)
-[2019.02.19-05.04.15:411][873]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
-[2019.02.19-05.04.15:434][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023123s)
-[2019.02.19-05.04.15:435][873]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
-[2019.02.19-05.04.15:435][873]LogPlayLevel: PIE: World Init took: (0.000986s)
-[2019.02.19-05.04.15:435][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.024338s)
-[2019.02.19-05.04.15:593][873]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.19-05.04.15:606][873]LogInit: FAudioDevice initialized.
-[2019.02.19-05.04.15:639][873]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.02.19-05.04.15:643][873]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.18-21.04.15
-[2019.02.19-05.04.15:658][873]LogWorld: Bringing up level for play took: 0.017652
-[2019.02.19-05.04.15:671][873]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap 0.063
-[2019.02.19-05.04.15:671][873]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.04.27:653][304]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.04.27:654][304]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-05.04.27:693][304]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.19-05.04.27:693][304]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.04.27:847][304]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-05.04.27:863][305]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.02.19-05.04.35:883][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-05.04.38:076][624]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-05.04.39:971][833]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-05.04.40:048][833]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/StaticMesh5A70B08A429D8EAEB7F604A68E4FF18B.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/StaticMeshes/StaticMesh.uasset'
-[2019.02.19-05.04.43:602][176]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-05.05.49:563][631]BlueprintLog: New page: Compile DoorSwing
-[2019.02.19-05.05.51:434][800]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.19-05.05.51:457][800]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.05.51:457][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.19-05.05.51:457][800]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 18, 2019, 1:05:51 PM)
-[2019.02.19-05.05.51:457][800]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
-[2019.02.19-05.05.51:480][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023086s)
-[2019.02.19-05.05.51:481][800]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
-[2019.02.19-05.05.51:481][800]LogPlayLevel: PIE: World Init took: (0.000951s)
-[2019.02.19-05.05.51:481][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.024245s)
-[2019.02.19-05.05.51:633][800]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.19-05.05.51:645][800]LogInit: FAudioDevice initialized.
-[2019.02.19-05.05.51:678][800]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.02.19-05.05.51:681][800]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.18-21.05.51
-[2019.02.19-05.05.51:682][800]LogWorld: Bringing up level for play took: 0.002640
-[2019.02.19-05.05.51:695][800]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap 0.087
-[2019.02.19-05.05.51:695][800]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.05.53:512][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-05.06.01:848][992]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.06.01:849][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-05.06.01:891][992]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.19-05.06.01:891][992]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.06.02:014][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-05.06.02:036][993]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.02.19-05.06.05:087][350]LogEditorViewport: Clicking on Actor (LMB): DoorSwing_C (DoorSwing)
-[2019.02.19-05.06.06:663][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-05.06.45:034][216]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwingF891135E4BC8A4DDF98621BAB868FDFD.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
-[2019.02.19-05.06.45:099][220]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-05.06.45:550][220]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMapCBBE4F404FDD34A3CDB623A274BCCB95.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
-[2019.02.19-05.06.46:931][220]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDCF2A51BF47B98999916642A7DD3E5C36.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
-[2019.02.19-05.06.47:044][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-05.06.47:191][240]BlueprintLog: New page: Compile DoorSwing
-[2019.02.19-05.06.57:699][256]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwingAE0797184D12F7D4901192AFCC2F4950.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
-[2019.02.19-05.06.58:772][356]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-05.07.01:098][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-05.07.05:888][139]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.19-05.07.05:905][139]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.07.05:906][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.19-05.07.05:906][139]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 18, 2019, 1:07:05 PM)
-[2019.02.19-05.07.05:906][139]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
-[2019.02.19-05.07.05:934][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027738s)
-[2019.02.19-05.07.05:935][139]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
-[2019.02.19-05.07.05:935][139]LogPlayLevel: PIE: World Init took: (0.001305s)
-[2019.02.19-05.07.05:935][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.029240s)
-[2019.02.19-05.07.06:085][139]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.19-05.07.06:097][139]LogInit: FAudioDevice initialized.
-[2019.02.19-05.07.06:130][139]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.02.19-05.07.06:134][139]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.18-21.07.06
-[2019.02.19-05.07.06:134][139]LogWorld: Bringing up level for play took: 0.003599
-[2019.02.19-05.07.06:147][139]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap 0.539
-[2019.02.19-05.07.06:147][139]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.07.13:584][ 15]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.07.13:585][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-05.07.13:626][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.19-05.07.13:627][ 15]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.07.13:781][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-05.07.13:802][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.02.19-05.07.46:024][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-05.08.12:319][120]LogEditorViewport: Clicking on Actor (LMB): DoorSwing_C (DoorSwing)
-[2019.02.19-05.08.13:661][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-05.08.26:719][442]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing6BB8F7284761F741145CBDA887B1BF56.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
-[2019.02.19-05.08.27:269][450]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap3C83E3D44DBC1BC44F57F0A887D10CE2.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
-[2019.02.19-05.08.28:470][450]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltD96567DF64FC16A7940EB5AA0EE5EEE55.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
-[2019.02.19-05.08.30:052][581]BlueprintLog: New page: Compile DoorSwing
-[2019.02.19-05.08.33:450][861]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing682146C84B061D4D583FF9AA84266832.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
-[2019.02.19-05.08.36:121][ 91]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.19-05.08.36:139][ 91]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.08.36:139][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.19-05.08.36:139][ 91]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 18, 2019, 1:08:36 PM)
-[2019.02.19-05.08.36:140][ 91]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
-[2019.02.19-05.08.36:162][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022328s)
-[2019.02.19-05.08.36:163][ 91]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
-[2019.02.19-05.08.36:163][ 91]LogPlayLevel: PIE: World Init took: (0.001284s)
-[2019.02.19-05.08.36:163][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.023805s)
-[2019.02.19-05.08.36:310][ 91]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.19-05.08.36:323][ 91]LogInit: FAudioDevice initialized.
-[2019.02.19-05.08.36:352][ 91]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.02.19-05.08.36:355][ 91]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.18-21.08.36
-[2019.02.19-05.08.36:356][ 91]LogWorld: Bringing up level for play took: 0.002682
-[2019.02.19-05.08.36:369][ 91]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap 0.76
-[2019.02.19-05.08.36:369][ 91]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.08.55:447][213]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.08.55:448][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-05.08.55:491][213]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.19-05.08.55:492][213]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.08.55:625][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-05.08.55:683][214]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.02.19-05.08.56:512][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-05.09.07:868][532]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSwing5C61779F4348EC58AD9519B05A850E87.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSwing.uasset'
-[2019.02.19-05.09.08:497][536]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMapF6EC1D1D452209E8E51AED975490EB0E.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
-[2019.02.19-05.09.10:010][536]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDD93D27DC41AAB3112CBA839654D4F8EF.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
-[2019.02.19-05.09.10:542][586]BlueprintLog: New page: Compile DoorSwing
-[2019.02.19-05.09.13:383][804]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap83C5A66F44025A31D7289692F5D11EFB.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
-[2019.02.19-05.09.14:612][804]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltDDAA774104426F657074FE49EA2493BFD.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
-[2019.02.19-05.09.18:340][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.02.19-05.09.21:473][420]Cmd: TRANSACTION UNDO
-[2019.02.19-05.09.21:473][420]LogEditorTransaction: Undo Move Actors
-[2019.02.19-05.09.22:009][456]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
-[2019.02.19-05.09.27:902][873]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-05.09.28:352][873]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMapC3CC19314C2196724053CC881DB40169.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
-[2019.02.19-05.09.29:651][873]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltD3747A21342ACCDCA16AB349B302F5118.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
-[2019.02.19-05.09.33:768][178]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.19-05.09.33:790][178]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.09.33:790][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.19-05.09.33:790][178]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 18, 2019, 1:09:33 PM)
-[2019.02.19-05.09.33:790][178]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
-[2019.02.19-05.09.33:817][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026923s)
-[2019.02.19-05.09.33:818][178]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
-[2019.02.19-05.09.33:819][178]LogPlayLevel: PIE: World Init took: (0.001180s)
-[2019.02.19-05.09.33:819][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.028253s)
-[2019.02.19-05.09.34:002][178]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.19-05.09.34:015][178]LogInit: FAudioDevice initialized.
-[2019.02.19-05.09.34:049][178]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.02.19-05.09.34:052][178]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.18-21.09.34
-[2019.02.19-05.09.34:053][178]LogWorld: Bringing up level for play took: 0.002651
-[2019.02.19-05.09.34:066][178]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap 0.458
-[2019.02.19-05.09.34:066][178]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.09.44:034][207]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.09.44:034][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-05.09.44:077][207]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.19-05.09.44:078][207]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
-[2019.02.19-05.09.44:222][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-05.09.44:277][208]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2019.02.19-05.09.45:295][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-05.09.45:881][327]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMapD4C5406347226F49ACE5A58068ACDB45.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
-[2019.02.19-05.09.47:112][327]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltD53F95108415F174E4F724E8F459662A9.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
-[2019.02.19-05.09.48:421][468]LogSlate: Window 'DoorSwing' being destroyed
-[2019.02.19-05.09.48:424][468]LogSlate: Window 'DoorSwing' being destroyed
+[2019.02.21-06.21.44:814][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.02.21-06.21.44:814][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Engine.ini]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Engine.ini]
+[2019.02.21-06.21.44:815][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Engine.ini]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Engine.ini]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.02.21-06.21.44:815][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Engine.ini]
+[2019.02.21-06.21.44:815][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Engine.ini]
+[2019.02.21-06.21.44:818][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.21-06.21.44:818][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.21-06.21.44:819][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.21-06.21.44:820][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.21-06.21.44:820][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.21-06.21.44:820][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.21-06.21.44:820][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-06.21.44:820][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.21-06.21.44:820][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.21-06.21.44:820][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.21-06.21.44:820][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.21-06.21.44:844][  0]LogHAL: Display: Platform has ~ 8 GB [8552824832 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.21-06.21.44:844][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.02.21-06.21.44:844][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.21-06.21.44:844][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-06.21.44:844][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.21-06.21.44:844][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.21-06.21.44:844][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-06.21.44:844][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.21-06.21.44:844][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-06.21.44:844][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.21-06.21.44:844][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.21-06.21.44:844][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.21-06.21.44:844][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.21-06.21.44:844][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.21-06.21.44:844][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.21-06.21.44:844][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.21-06.21.44:845][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-06.21.44:846][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.02.21-06.21.44:846][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.02.21-06.21.44:846][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Config/Windows/Engine.ini]
+[2019.02.21-06.21.44:846][  0]LogInit: Computer: KEVINCHUPC
+[2019.02.21-06.21.44:846][  0]LogInit: User: Passwordis123
+[2019.02.21-06.21.44:846][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.21-06.21.44:846][  0]LogInit: High frequency timer resolution =3.433586 MHz
+[2019.02.21-06.21.44:847][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.02.21-06.21.44:847][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.21-06.21.44:847][  0]LogMemory: Process Physical Memory: 100.18 MB used, 100.18 MB peak
+[2019.02.21-06.21.44:847][  0]LogMemory: Process Virtual Memory: 91.14 MB used, 91.14 MB peak
+[2019.02.21-06.21.44:847][  0]LogMemory: Physical Memory: 3741.00 MB used,  4415.61 MB free, 8156.61 MB total
+[2019.02.21-06.21.44:847][  0]LogMemory: Virtual Memory: 497.74 MB used,  134217232.00 MB free, 134217728.00 MB total
+[2019.02.21-06.21.44:870][  0]LogInit: Using OS detected language (en-US).
+[2019.02.21-06.21.44:870][  0]LogInit: Using OS detected locale (en-CA).
+[2019.02.21-06.21.44:871][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.21-06.21.45:385][  0]LogStreaming: Display: Took  0.515s to InitEngineTextLocalization.
+[2019.02.21-06.21.45:386][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.21-06.21.45:455][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.21-06.21.45:455][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.21-06.21.45:687][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.21-06.21.45:687][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.21-06.21.45:738][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.02.21-06.21.45:738][  0]LogD3D11RHI:       3992/0/4078 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.21-06.21.45:740][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.21-06.21.45:740][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.21-06.21.45:740][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.21-06.21.45:746][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.21-06.21.45:746][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.21-06.21.45:746][  0]LogWindows: EnumDisplayDevices:
+[2019.02.21-06.21.45:746][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.02.21-06.21.45:746][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.02.21-06.21.45:746][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.02.21-06.21.45:746][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.02.21-06.21.45:747][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.21-06.21.45:747][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.02.21-06.21.45:747][  0]LogD3D11RHI:   Driver Version: 416.94 (internal:25.21.14.1694, unified:416.94)
+[2019.02.21-06.21.45:747][  0]LogD3D11RHI:      Driver Date: 11-12-2018
+[2019.02.21-06.21.45:747][  0]LogRHI: Texture pool is 2794 MB (70% of 3992 MB)
+[2019.02.21-06.21.45:784][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.21-06.21.45:820][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.21-06.21.46:301][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.21-06.21.46:321][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.21-06.21.46:340][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.21-06.21.46:360][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.21-06.21.46:379][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.21-06.21.46:399][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.21-06.21.46:418][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.21-06.21.46:438][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.21-06.21.46:447][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:559][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-06.21.46:561][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.21-06.21.46:634][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.21-06.21.46:634][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.21-06.21.46:670][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.21-06.21.46:670][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.21-06.21.46:689][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.21-06.21.46:707][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.21-06.21.46:726][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.21-06.21.46:746][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.21-06.21.46:815][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.21-06.21.46:815][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.21-06.21.46:815][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.21-06.21.46:877][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Intermediate/Shaders/WorkingDirectory/7860/).
+[2019.02.21-06.21.46:878][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Password is 123/AppData/Local/Temp/UnrealShaderWorkingDir/1DAD62924B4DA4BAE413899A9C372A2E/'.
+[2019.02.21-06.21.46:880][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.21-06.21.46:880][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.21-06.21.46:880][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.21-06.21.47:726][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.21-06.21.47:825][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/Password is 123/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.21-06.21.47:825][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Password is 123/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.02.21-06.21.47:825][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.21-06.21.47:825][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.21-06.21.47:825][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.21-06.21.47:825][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.21-06.21.47:847][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.21-06.21.47:847][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.21-06.21.47:847][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.02.21-06.21.47:860][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Password is 123/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.21-06.21.47:860][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.21-06.21.47:860][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.21-06.21.47:895][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.21-06.21.47:897][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.21-06.21.47:897][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.21-06.21.48:007][  0]LogAssetRegistry: FAssetRegistry took 0.0393 seconds to start up
+[2019.02.21-06.21.48:518][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.21-06.21.48:719][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.21-06.21.48:722][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.21-06.21.48:722][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.21-06.21.48:722][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.21-06.21.48:722][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.21-06.21.48:740][  0]LogNetVersion: Prototypes 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3306367520)
+[2019.02.21-06.21.49:429][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.129695 seconds
+[2019.02.21-06.21.49:439][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.02.21-06.21.49:439][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.02.21-06.21.49:439][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.21-06.21.50:496][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.21-06.21.50:510][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.21-06.21.51:325][  0]SourceControl: Source control is disabled
+[2019.02.21-06.21.51:325][  0]SourceControl: Source control is disabled
+[2019.02.21-06.21.51:326][  0]SourceControl: Source control is disabled
+[2019.02.21-06.21.51:327][  0]SourceControl: Source control is disabled
+[2019.02.21-06.21.51:506][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.21-06.21.51:611][  0]LogOcInput: OculusInput pre-init called
+[2019.02.21-06.21.51:764][  0]LogEngine: Initializing Engine...
+[2019.02.21-06.21.51:764][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.21-06.21.51:766][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.21-06.21.51:766][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.21-06.21.51:766][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.21-06.21.51:766][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.21-06.21.52:105][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.21-06.21.52:122][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.21-06.21.52:191][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.21-06.21.52:208][  0]LogInit: FAudioDevice initialized.
+[2019.02.21-06.21.52:208][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.21-06.21.52:378][  0]LogDerivedDataCache: Saved boot cache 0.17s 71MB C:/Users/Password is 123/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.21-06.21.52:393][  0]LogInit: Texture streaming: Enabled
+[2019.02.21-06.21.52:413][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.21-06.21.52:424][  0]LogInit: Transaction tracking system initialized
+[2019.02.21-06.21.52:448][  0]BlueprintLog: New page: Editor Load
+[2019.02.21-06.21.52:533][  0]LocalizationService: Localization service is disabled
+[2019.02.21-06.21.53:140][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/' took 0.02s
+[2019.02.21-06.21.53:140][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.21-06.21.53:140][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.21-06.21.53:140][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.21-06.21.53:140][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.21-06.21.53:140][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.21-06.21.53:140][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.21-06.21.53:140][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.21-06.21.53:289][  0]SourceControl: Source control is disabled
+[2019.02.21-06.21.53:290][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.21-06.21.53:290][  0]LightingResults: New page: Lighting Build
+[2019.02.21-06.21.53:293][  0]MapCheck: New page: Map Check
+[2019.02.21-06.21.53:293][  0]LightingResults: New page: Lighting Build
+[2019.02.21-06.21.57:383][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2019.02.21-06.21.57:383][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
+[2019.02.21-06.21.57:383][  0]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
+[2019.02.21-06.21.57:383][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2019.02.21-06.21.57:917][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
+[2019.02.21-06.21.57:917][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2019.02.21-06.21.57:917][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
+[2019.02.21-06.22.00:753][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
+[2019.02.21-06.22.00:753][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
+[2019.02.21-06.22.00:753][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2019.02.21-06.22.00:753][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2019.02.21-06.22.00:753][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
+[2019.02.21-06.22.00:753][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
+[2019.02.21-06.22.00:753][  0]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
+[2019.02.21-06.22.00:753][  0]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
+[2019.02.21-06.22.01:742][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.02.21-06.22.01:756][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.21-06.22.01:904][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.21-06.22.01:904][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.146ms to complete.
+[2019.02.21-06.22.01:904][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 8.614
+[2019.02.21-06.22.02:150][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-06.22.02:161][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-06.22.02:170][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-06.22.02:181][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-06.22.02:235][  0]LogCollectionManager: Loaded 0 collections in 0.001630 seconds
+[2019.02.21-06.22.02:301][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/Collections/' took 0.01s
+[2019.02.21-06.22.02:301][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/Developers/Passwordis123/Collections/' took 0.01s
+[2019.02.21-06.22.02:301][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/Collections/' took 0.01s
+[2019.02.21-06.22.02:301][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.21-06.22.02:317][  0]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 2651 classes and 620 folders.
+[2019.02.21-06.22.02:341][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.21-06.22.02:471][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:520][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:552][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:559][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:566][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:579][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:585][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:593][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:630][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:637][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:644][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:653][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:661][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:669][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:676][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:723][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:731][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:739][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:772][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:832][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:839][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:846][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:855][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:863][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.02:871][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-06.22.04:571][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.21-06.22.04:608][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.02.21-06.22.04:625][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.21-06.22.04:628][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.21-06.22.04:660][  0]LogSlate: Took 0.027053 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.21-06.22.05:133][  0]LogRenderer: Reallocating scene render targets to support 944x576 Format 10 NumSamples 1 (Frame:1).
+[2019.02.21-06.22.05:310][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.21-06.22.05:310][  0]LogLoad: (Engine Initialization) Total time: 22.37 seconds
+[2019.02.21-06.22.05:310][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.21-06.22.05:383][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.21-06.22.05:468][  0]LogSlate: Took 0.070632 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.21-06.22.05:630][  3]LogAssetRegistry: Asset discovery search completed in 17.6448 seconds
+[2019.02.21-06.22.05:632][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.21-06.22.05:632][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2019.02.21-06.26.05:457][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.26.07:425][267]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.21-06.26.07:925][267]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
+[2019.02.21-06.26.07:938][267]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap
+[2019.02.21-06.26.08:087][267]LightingResults: New page: Lighting Build
+[2019.02.21-06.26.08:087][267]LoadErrors: New page: Loading map: FirstPersonExampleDoorMap.umap
+[2019.02.21-06.26.08:088][267]MapCheck: New page: Map Check
+[2019.02.21-06.26.08:088][267]LightingResults: New page: Lighting Build
+[2019.02.21-06.26.08:252][267]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.21-06.26.08:459][267]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.21-06.26.08:461][267]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.76ms to complete.
+[2019.02.21-06.26.08:461][267]LogFileHelpers: Loading map 'FirstPersonExampleDoorMap' took 0.375
+[2019.02.21-06.26.13:368][811]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2019.02.21-06.26.16:978][196]Cmd: TRANSACTION UNDO
+[2019.02.21-06.26.16:978][196]LogEditorTransaction: Undo Scale Actors
+[2019.02.21-06.26.18:840][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall3)
+[2019.02.21-06.26.20:266][504]LogSlate: Took 0.085653 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.21-06.26.21:574][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.26.37:662][329]Cmd: TRANSACTION UNDO
+[2019.02.21-06.26.37:662][329]LogEditorTransaction: Undo Move Actors
+[2019.02.21-06.26.38:916][458]Cmd: EDIT COPY
+[2019.02.21-06.26.39:165][484]Cmd: EDIT PASTE
+[2019.02.21-06.26.47:951][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.26.49:018][520]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (BigWall3)
+[2019.02.21-06.26.50:212][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.26.52:582][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall3)
+[2019.02.21-06.26.53:448][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall3)
+[2019.02.21-06.26.53:979][ 15]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BigWall3)
+[2019.02.21-06.26.54:006][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.26.54:476][ 70]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2019.02.21-06.26.54:881][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall3)
+[2019.02.21-06.27.01:803][822]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (BigWall5)
+[2019.02.21-06.27.12:542][981]LogEditorViewport: Clicking on Actor (LMB): DoorRaise_C (DoorSwing)
+[2019.02.21-06.27.13:328][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.27.14:058][100]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap1272800B4BEF197D910D589E310E9870.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.21-06.27.16:302][100]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltD5A84CA7340FA456A4122538BCDAA098B.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
+[2019.02.21-06.28.36:905][530]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.28.57:162][252]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonDoor/Blueprints/DoorSmash.DoorSmash
+[2019.02.21-06.28.58:258][252]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 117 classes and 0 folders.
+[2019.02.21-06.28.59:724][252]LogSlate: Took 0.028549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.21-06.29.43:495][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.30.02:269][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.30.37:338][243]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.30.37:770][243]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMapE81FEB184C259EC0BE237E8698D3C464.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.21-06.30.39:341][243]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltD2E6787574D6A64E0320199BADB0E323A.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
+[2019.02.21-06.30.41:965][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.30.42:102][444]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.21-06.30.42:133][444]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.30.42:133][444]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.02.21-06.30.42:144][444]LogPlayLevel: [PlayLevel] Compiling DoorSmash before play...
+[2019.02.21-06.30.42:494][444]LogPlayLevel: PlayLevel: Blueprint regeneration took 361 ms (1 blueprints)
+[2019.02.21-06.30.42:494][444]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 20, 2019, 2:30:42 PM)
+[2019.02.21-06.30.42:507][444]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
+[2019.02.21-06.30.42:529][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022209s)
+[2019.02.21-06.30.42:530][444]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
+[2019.02.21-06.30.42:530][444]LogPlayLevel: PIE: World Init took: (0.001170s)
+[2019.02.21-06.30.42:531][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.023736s)
+[2019.02.21-06.30.42:669][444]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.21-06.30.42:683][444]LogInit: FAudioDevice initialized.
+[2019.02.21-06.30.42:728][444]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.02.21-06.30.42:731][444]PIE: Warning: Invalid Simulate Options: Body (DoorSmash_2.TriggerVolume) is set to simulate physics but Collision Enabled is incompatible
+[2019.02.21-06.30.42:732][444]PIE: Warning: Invalid Simulate Options: Body (DoorSmash_2.TriggerVolume) is set to simulate physics but Collision Enabled is incompatible
+[2019.02.21-06.30.42:732][444]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.20-22.30.42
+[2019.02.21-06.30.42:733][444]LogWorld: Bringing up level for play took: 0.003263
+[2019.02.21-06.30.42:757][444]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.02.21-06.30.42:758][444]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap -0.321
+[2019.02.21-06.30.42:759][444]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.31.00:845][295]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.31.00:845][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-06.31.00:885][295]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.21-06.31.00:885][295]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.31.01:019][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-06.31.01:029][295]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.31.01:068][296]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.02.21-06.31.02:661][427]LogSlate: Window 'Message Log' being destroyed
+[2019.02.21-06.31.02:666][427]LogSlate: Window 'Message Log' being destroyed
+[2019.02.21-06.31.07:306][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.31.07:459][828]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.21-06.31.07:485][828]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.31.07:485][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.21-06.31.07:485][828]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 20, 2019, 2:31:07 PM)
+[2019.02.21-06.31.07:485][828]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
+[2019.02.21-06.31.07:509][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023624s)
+[2019.02.21-06.31.07:510][828]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
+[2019.02.21-06.31.07:510][828]LogPlayLevel: PIE: World Init took: (0.001164s)
+[2019.02.21-06.31.07:510][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.024950s)
+[2019.02.21-06.31.07:641][828]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.21-06.31.07:653][828]LogInit: FAudioDevice initialized.
+[2019.02.21-06.31.07:688][828]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.02.21-06.31.07:691][828]PIE: Warning: Invalid Simulate Options: Body (DoorSmash_2.TriggerVolume) is set to simulate physics but Collision Enabled is incompatible
+[2019.02.21-06.31.07:691][828]PIE: Warning: Invalid Simulate Options: Body (DoorSmash_2.TriggerVolume) is set to simulate physics but Collision Enabled is incompatible
+[2019.02.21-06.31.07:691][828]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.20-22.31.07
+[2019.02.21-06.31.07:692][828]LogWorld: Bringing up level for play took: 0.003062
+[2019.02.21-06.31.07:705][828]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap 0.626
+[2019.02.21-06.31.07:705][828]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.31.11:203][169]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.31.11:203][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-06.31.11:242][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.21-06.31.11:242][169]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.31.11:389][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-06.31.11:399][169]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.31.11:491][170]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.02.21-06.31.45:192][271]BlueprintLog: New page: Compile DoorSmash
+[2019.02.21-06.31.51:244][798]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.31.51:352][809]LogSlate: Window 'Message Log' being destroyed
+[2019.02.21-06.31.51:357][809]LogSlate: Window 'Message Log' being destroyed
+[2019.02.21-06.31.52:871][931]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.31.54:330][ 76]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.21-06.31.54:356][ 76]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.31.54:356][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.21-06.31.54:356][ 76]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 20, 2019, 2:31:54 PM)
+[2019.02.21-06.31.54:356][ 76]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
+[2019.02.21-06.31.54:379][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023109s)
+[2019.02.21-06.31.54:380][ 76]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
+[2019.02.21-06.31.54:380][ 76]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2019.02.21-06.31.54:380][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.024238s)
+[2019.02.21-06.31.54:516][ 76]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.21-06.31.54:529][ 76]LogInit: FAudioDevice initialized.
+[2019.02.21-06.31.54:565][ 76]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.02.21-06.31.54:567][ 76]PIE: Warning: Invalid Simulate Options: Body (DoorSmash_2.TriggerVolume) is set to simulate physics but Collision Enabled is incompatible
+[2019.02.21-06.31.54:567][ 76]PIE: Warning: Invalid Simulate Options: Body (DoorSmash_2.TriggerVolume) is set to simulate physics but Collision Enabled is incompatible
+[2019.02.21-06.31.54:568][ 76]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.20-22.31.54
+[2019.02.21-06.31.54:568][ 76]LogWorld: Bringing up level for play took: 0.003138
+[2019.02.21-06.31.54:582][ 76]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap -0.498
+[2019.02.21-06.31.54:582][ 76]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.31.57:901][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.31.57:902][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-06.31.57:940][417]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.21-06.31.57:941][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.31.58:078][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-06.31.58:088][417]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.31.58:178][418]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.02.21-06.32.08:958][335]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.21-06.32.08:977][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.32.08:977][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.21-06.32.08:977][335]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 20, 2019, 2:32:08 PM)
+[2019.02.21-06.32.08:978][335]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
+[2019.02.21-06.32.09:002][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024075s)
+[2019.02.21-06.32.09:003][335]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
+[2019.02.21-06.32.09:003][335]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2019.02.21-06.32.09:003][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.025287s)
+[2019.02.21-06.32.09:152][335]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.21-06.32.09:164][335]LogInit: FAudioDevice initialized.
+[2019.02.21-06.32.09:196][335]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.02.21-06.32.09:199][335]PIE: Warning: Invalid Simulate Options: Body (DoorSmash_2.TriggerVolume) is set to simulate physics but Collision Enabled is incompatible
+[2019.02.21-06.32.09:199][335]PIE: Warning: Invalid Simulate Options: Body (DoorSmash_2.TriggerVolume) is set to simulate physics but Collision Enabled is incompatible
+[2019.02.21-06.32.09:200][335]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.20-22.32.09
+[2019.02.21-06.32.09:200][335]LogWorld: Bringing up level for play took: 0.003126
+[2019.02.21-06.32.09:213][335]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap 0.133
+[2019.02.21-06.32.09:213][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.32.13:947][694]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.32.13:947][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-06.32.13:993][694]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.21-06.32.13:993][694]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.32.14:119][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-06.32.14:251][695]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.02.21-06.32.16:359][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.32.16:613][839]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSmashD642C2C64B4572576E5553BC606DA574.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSmash.uasset'
+[2019.02.21-06.32.20:878][174]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.32.22:344][276]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.21-06.32.22:364][276]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.32.22:364][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.21-06.32.22:364][276]PIE: New page: PIE session: FirstPersonExampleDoorMap (Feb 20, 2019, 2:32:22 PM)
+[2019.02.21-06.32.22:364][276]LogPlayLevel: Creating play world package: /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap
+[2019.02.21-06.32.22:388][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023481s)
+[2019.02.21-06.32.22:389][276]LogAIModule: Creating AISystem for world FirstPersonExampleDoorMap
+[2019.02.21-06.32.22:389][276]LogPlayLevel: PIE: World Init took: (0.001218s)
+[2019.02.21-06.32.22:389][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap to /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap (0.024880s)
+[2019.02.21-06.32.22:539][276]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.21-06.32.22:552][276]LogInit: FAudioDevice initialized.
+[2019.02.21-06.32.22:588][276]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.02.21-06.32.22:590][276]PIE: Warning: Invalid Simulate Options: Body (DoorSmash_2.TriggerVolume) is set to simulate physics but Collision Enabled is incompatible
+[2019.02.21-06.32.22:590][276]PIE: Warning: Invalid Simulate Options: Body (DoorSmash_2.TriggerVolume) is set to simulate physics but Collision Enabled is incompatible
+[2019.02.21-06.32.22:591][276]LogWorld: Bringing World /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap.FirstPersonExampleDoorMap up for play (max tick rate 0) at 2019.02.20-22.32.22
+[2019.02.21-06.32.22:592][276]LogWorld: Bringing up level for play took: 0.003164
+[2019.02.21-06.32.22:605][276]PIE: Play in editor start time for /Game/FirstPersonDoor/Maps/UEDPIE_0_FirstPersonExampleDoorMap -0.475
+[2019.02.21-06.32.22:605][276]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.32.26:428][555]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.32.26:428][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-06.32.26:472][555]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.21-06.32.26:472][555]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap' with GeneratedClass '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap_C' with ClassGeneratedBy '/Game/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.FirstPersonExampleDoorMap:PersistentLevel.FirstPersonExampleDoorMap'
+[2019.02.21-06.32.26:602][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-06.32.26:730][556]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.02.21-06.32.30:054][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.32.45:195][968]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSmashAB9CB809454EF29AD997E8BF4B51262E.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSmash.uasset'
+[2019.02.21-06.32.48:782][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.32.50:359][378]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/DoorSmash18FF03EB4A8D4B1C720A6A976BC0B68E.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Blueprints/DoorSmash.uasset'
+[2019.02.21-06.32.51:000][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.33.09:752][882]BlueprintLog: New page: Compile DoorSmash
+[2019.02.21-06.33.15:996][344]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.33.18:626][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.33.34:242][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.33.36:147][224]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.33.42:192][792]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.34.01:410][467]LogRenderer: Reallocating scene render targets to support 944x900 Format 10 NumSamples 1 (Frame:13527).
+[2019.02.21-06.34.05:003][782]Cmd: TRANSACTION UNDO
+[2019.02.21-06.34.05:003][782]LogEditorTransaction: Undo Make New Scene Root
+[2019.02.21-06.34.05:350][805]Cmd: TRANSACTION UNDO
+[2019.02.21-06.34.05:350][805]LogEditorTransaction: Undo Rename Component Variable
+[2019.02.21-06.34.05:577][820]Cmd: TRANSACTION UNDO
+[2019.02.21-06.34.05:577][820]LogEditorTransaction: Undo Remove Components
+[2019.02.21-06.34.05:783][834]Cmd: TRANSACTION UNDO
+[2019.02.21-06.34.05:783][834]LogEditorTransaction: Undo Make New Scene Root
+[2019.02.21-06.34.06:020][853]Cmd: TRANSACTION UNDO
+[2019.02.21-06.34.06:020][853]LogEditorTransaction: Undo Edit Simulate Physics
+[2019.02.21-06.34.06:399][885]Cmd: TRANSACTION UNDO
+[2019.02.21-06.34.06:399][885]LogEditorTransaction: Undo Make New Scene Root
+[2019.02.21-06.34.06:842][925]Cmd: TRANSACTION UNDO
+[2019.02.21-06.34.06:842][925]LogEditorTransaction: Undo Edit Simulate Physics
+[2019.02.21-06.34.07:168][953]Cmd: TRANSACTION UNDO
+[2019.02.21-06.34.07:168][953]LogEditorTransaction: Undo Edit Simulation Generates Hit Events
+[2019.02.21-06.34.07:528][982]Cmd: TRANSACTION UNDO
+[2019.02.21-06.34.07:528][982]LogEditorTransaction: Undo Make New Scene Root
+[2019.02.21-06.34.07:797][  4]Cmd: TRANSACTION UNDO
+[2019.02.21-06.34.07:797][  4]LogEditorTransaction: Undo Rename Component Variable
+[2019.02.21-06.34.40:236][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube14)
+[2019.02.21-06.34.40:797][640]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (EditorCube14)
+[2019.02.21-06.34.40:821][640]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.34.44:916][934]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.34.57:442][750]LogSlate: Window 'DoorSmash' being destroyed
+[2019.02.21-06.34.57:446][750]LogSlate: Window 'DoorSmash' being destroyed
+[2019.02.21-06.35.14:740][229]LogSlate: Window 'Delete Assets' being destroyed
+[2019.02.21-06.36.35:294][589]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (EditorCube14)
+[2019.02.21-06.36.35:314][589]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.36.37:392][813]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.36.38:405][903]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Geometry/Meshes/1M_Cube.1M_Cube
+[2019.02.21-06.36.47:532][285]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.36.53:416][782]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.36.53:539][793]LogSlate: Window '1M_Cube' being destroyed
+[2019.02.21-06.36.53:544][793]LogSlate: Window '1M_Cube' being destroyed
+[2019.02.21-06.37.14:800][957]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.37.23:106][176]LogSlate: Window 'Save Content' being destroyed
+[2019.02.21-06.37.24:757][362]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.37.26:478][533]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.37.26:921][533]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap241ECE3D4B8529E30A0EE8BF9EAEF5D7.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.21-06.37.26:967][533]LogFileHelpers: Saving map 'FirstPersonExampleDoorMap' took 0.471
+[2019.02.21-06.37.30:792][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.37.35:545][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.37.38:338][742]LogSlate: Window 'Message Log' being destroyed
+[2019.02.21-06.37.38:342][742]LogSlate: Window 'Message Log' being destroyed
+[2019.02.21-06.39.16:983][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.39.37:702][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.40.00:151][775]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonDoor/Blueprints/DoorSwingSmash.DoorSwingSmash
+[2019.02.21-06.40.02:203][882]LogSlate: Window 'DoorSwingSmash*' being destroyed
+[2019.02.21-06.40.02:207][882]LogSlate: Window 'DoorSwingSmash*' being destroyed
+[2019.02.21-06.40.10:795][733]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.21-06.40.11:232][733]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap3F701D214201E5804CC772AE83B083DB.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap.umap'
+[2019.02.21-06.40.12:886][733]LogSavePackage: Moving '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Saved/FirstPersonExampleDoorMap_BuiltD909CA9844C4A3877376DEAB5D0D1FA86.tmp' to '../../../../../../Users/Password is 123/Documents/BluePrintDemonstrations-/Prototypes/Content/FirstPersonDoor/Maps/FirstPersonExampleDoorMap_BuiltData.uasset'
+[2019.02.21-06.40.13:426][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-06.40.14:485][859]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonDoor/Blueprints/DoorSwingSmash.DoorSwingSmash
+[2019.02.21-06.41.11:832][655]BlueprintLog: New page: Compile DoorSwingSmash
+[2019.02.21-06.41.14:190][786]LogSlate: Window 'DoorSwingSmash*' being destroyed
+[2019.02.21-06.41.14:194][786]LogSlate: Window 'DoorSwingSmash*' being destroyed
