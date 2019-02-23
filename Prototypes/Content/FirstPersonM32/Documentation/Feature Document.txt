@@ -1,0 +1,10 @@
+Essence statement
+The absence of a multi round grenade launcher in squad presents an opportunity for me to create a technical demonstration that can be adapted into a feature during my onboarding to the company. 
+to fill this absence, I'm going to create a M32 grenade launcher using blueprint. The gun will fire using realworld measurements converted to Unreal unitys. The player will be able to swap between
+four types of rounds each of which will provide different challenges and benefits.
+
+
+design pillars
+-This M32 launcher will include a variery of rounds to shoot
+-The parameters will follow the conventions of previously established grenade launchers in squad
+-The real life properties, design features, and limitations of the weapon will be represented 
