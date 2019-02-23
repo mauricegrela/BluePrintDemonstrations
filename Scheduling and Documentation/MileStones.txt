@@ -7,13 +7,13 @@ X-Auto Slide door
 
 19/02/21
 Complete Wall Jump movement 
--Program wall climb functionality
--Create Modular wall prefab
+x-Program wall climb functionality
+x-Create Modular wall prefab
 -Create simple level using prefabs
 
 19/02/22
 Target Range 
--Write a technical document breaking down the behaviour of the target range 
+x-Write a technical document breaking down the behaviour of the target range 
 -Break down document into list of to dos 
 -Create a compelling 3 minute gameplay loop using the default unreal weapon 
 
