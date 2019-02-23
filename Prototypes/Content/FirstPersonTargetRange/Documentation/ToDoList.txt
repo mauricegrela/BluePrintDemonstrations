@@ -1,0 +1,13 @@
+To do list
+-Target Prefab
+	-Rise
+	-Lower when shot
+	-Track head and torso shot
+-UI
+	-render text
+	-Add to score when target hit
+-Target Range Prefab
+	-Instantiate rows and columns of target prefab
+	-Spawn X random in array
+	-Spawn three on the same row
+	-Spawn three Diagonal 
