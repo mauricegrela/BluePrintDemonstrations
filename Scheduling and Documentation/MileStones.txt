@@ -23,7 +23,7 @@ X-Create a one page feature breif explaining how the grenade launcher and its mu
 -Implement the following
 	Rounds:
 		X-High Explosive
-		-Tear/Smoke Gas
+		x-Tear/Smoke Gas
 		-Air burst 
 		-MP-APERS (Twenty 24-grain metal pellets)
 	Funtionality
