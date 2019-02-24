@@ -1,0 +1,45 @@
+Milestones
+19/02/20
+Complete door example
+X-Auto Slide door
+X-Pree E to swing door open 
+X-Hold E to Kick Down Door
+
+19/02/21
+Complete Wall Jump movement 
+X-Program wall climb functionality
+X-Create Modular wall prefab
+-Create simple level using prefabs
+
+19/02/22
+Target Range 
+X-Write a technical document breaking down the behaviour of the target range 
+X-Break down document into list of to dos 
+-Create a compelling 3 minute gameplay loop using the default unreal weapon 
+
+19/02/23
+Implement the first draft of the Milkor MGL
+X-Create a one page feature breif explaining how the grenade launcher and its multiple grenades will function 
+-Implement the following
+	Rounds:
+		X-High Explosive
+		x-Tear/Smoke Gas
+		-Air burst 
+		-MP-APERS (Twenty 24-grain metal pellets)
+	Funtionality
+		-Loading custom shells 
+		-Reloading
+		-Parameterize variables
+	Aesthetics
+		X-Find a M32 Grenade model to import
+		
+19/02/24
+-complete any features not finished from the previous day
+-Adapt the previous target range for the Milkor MGL
+-Brainstorm features which could be tested and implemented by the 27th
+
+19/02/25
+
+19/02/26
+
+19/02/27

@@ -1,0 +1,19 @@
+Essence statement
+This target range is a prefab that will provide a scalable target range that tracks the players progress through out their session. 
+
+Ideas for target spawning behavior 
+-Pick a random spawn point, raise that one
+-Pic three from a row
+-Pic three diagonal. 
+
+Target behaviors (Save for if you have time)
+-Move up and down
+-Rotate Side to side
+-Provice a head hit box which gives additional points
+
+
+Design features 
+- This level use blueprint to create a target range
+- The targets swap between two to three reveal patterns 
+- A score is given to the player for each hit they score
+- The target range will be parameterized to allow for an increase in scope. 
