@@ -23,13 +23,14 @@ X-Create a one page feature breif explaining how the grenade launcher and its mu
 -Implement the following
 	Rounds:
 		X-High Explosive
-		x-Tear/Smoke Gas
+		X-Tear/Smoke Gas
 		-Air burst 
 		-MP-APERS (Twenty 24-grain metal pellets)
 	Funtionality
 		-Loading custom shells 
 		-Reloading
 		-Parameterize variables
+		X-Rendered instructions for launching special shells. 
 	Aesthetics
 		X-Find a M32 Grenade model to import
 		
