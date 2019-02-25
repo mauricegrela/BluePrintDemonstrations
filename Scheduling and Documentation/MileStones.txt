@@ -27,8 +27,8 @@ X-Create a one page feature breif explaining how the grenade launcher and its mu
 		-Air burst 
 		-MP-APERS (Twenty 24-grain metal pellets)
 	Funtionality
-		-Loading custom shells 
-		-Reloading
+		X-Loading custom shells 
+		X-Reloading
 		-Parameterize variables
 		X-Rendered instructions for launching special shells. 
 	Aesthetics
