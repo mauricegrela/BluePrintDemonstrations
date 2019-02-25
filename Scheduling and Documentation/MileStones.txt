@@ -15,7 +15,6 @@ X-Create Modular wall prefab
 Target Range 
 X-Write a technical document breaking down the behaviour of the target range 
 X-Break down document into list of to dos 
--Create a compelling 3 minute gameplay loop using the default unreal weapon 
 
 19/02/23
 Implement the first draft of the Milkor MGL
@@ -35,9 +34,30 @@ X-Create a one page feature breif explaining how the grenade launcher and its mu
 		X-Find a M32 Grenade model to import
 		
 19/02/24
--complete any features not finished from the previous day
--Adapt the previous target range for the Milkor MGL
--Brainstorm features which could be tested and implemented by the 27th
+X-complete any features not finished from the previous day
+X-Brainstorm features which could be tested and implemented by the 27th
+
+Left over Todo from the weekend
+Rounds:
+	-Air burst 
+	-MP-APERS (Twenty 24-grain metal pellets)
+Funtionality
+	-Parameterize variables
+		-Action	Double-action
+		-Rate of fire	3 rounds/sec (MGL) (rapid fire) 
+		-18-21 rounds/min (sustained)
+		-Muzzle velocity	75 m/s (250 ft/s) (MGL)
+		-Effective firing range	400 m (440 yd) 
+		-800 m (870 yd) (ERLP ammunition)
+		-Maximum firing range	400 m
+	-When switching rounds, add one to the ammo count
+Aesthetics
+	-Implement the M32 grenade launcher 
+Level Design
+	-Adapt the previous target range for the Milkor MGL
+Dropped
+	-Create a compelling 3 minute gameplay loop using the default unreal weapon 
+	-Create simple level using prefabs
 
 19/02/25
 
