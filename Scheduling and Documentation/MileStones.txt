@@ -52,9 +52,9 @@ Funtionality
 		-Maximum firing range	400 m
 	-When switching rounds, add one to the ammo count
 Aesthetics
-	-Implement the M32 grenade launcher 
+	x-Implement the M32 grenade launcher mesh
 Level Design
-	-Adapt the previous target range for the Milkor MGL
+	x-Adapt the previous target range for the Milkor MGL
 Dropped
 	-Create a compelling 3 minute gameplay loop using the default unreal weapon 
 	-Create simple level using prefabs
