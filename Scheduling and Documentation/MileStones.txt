@@ -111,8 +111,14 @@ Level Design
 	-Upodate the functionality for how the target spawining works.  
 
 functionality
-	-tweak the physics of each round 
+	-tweak the physics properties of each round 
 	-Add a cross hair to the map
-	-
+	-add additional hud elements which give the player the following information
+		-Current ammo count
+		-Current round loaded
+		-
+	-Rounds
+		-Fix the smoke grenade
+		
 
 
