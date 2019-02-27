@@ -17,3 +17,9 @@ Design features
 - The targets swap between two to three reveal patterns 
 - A score is given to the player for each hit they score
 - The target range will be parameterized to allow for an increase in scope. 
+
+
+Target Range loop 
+	-Select one of three spawning algorithims 
+	-Spawn actors 
+	-Complete a delay before spawning more actors

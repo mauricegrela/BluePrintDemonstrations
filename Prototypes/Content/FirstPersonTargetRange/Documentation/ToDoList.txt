@@ -8,6 +8,7 @@ To do list
 	-Add to score when target hit
 -Target Range Prefab
 	x-Instantiate rows and columns of target prefab
-	-Spawn X random in array
+	x-Spawn X random in array
 	x-Spawn three on the same row
 	x-Spawn three Diagonal 
+
