@@ -23,3 +23,6 @@ Muzzle velocity	75 m/s (250 ft/s) (MGL), 125 m/s (410 ft/s) (XRGL40)
 Effective firing range	400 m (440 yd) 
 800 m (870 yd) (ERLP ammunition)
 Maximum firing range	400 m
+
+Air burst rounds
+https://en.wikipedia.org/wiki/Airburst_round
