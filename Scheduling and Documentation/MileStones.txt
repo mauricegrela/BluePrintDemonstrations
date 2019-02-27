@@ -102,4 +102,17 @@ Funtionality
 
 19/02/26
 
+Rounds:
+	x-Air burst 
+
 19/02/27
+
+Level Design
+	-Upodate the functionality for how the target spawining works.  
+
+functionality
+	-tweak the physics of each round 
+	-Add a cross hair to the map
+	-
+
+
