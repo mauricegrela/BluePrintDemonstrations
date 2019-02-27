@@ -60,6 +60,45 @@ Dropped
 	-Create simple level using prefabs
 
 19/02/25
+-Implement the following
+	Rounds:
+		X-High Explosive
+		X-Tear/Smoke Gas
+		-Air burst 
+		-MP-APERS (Twenty 24-grain metal pellets)
+	Funtionality
+		X-Loading custom shells 
+		X-Reloading
+		-Parameterize variables
+		X-Rendered instructions for launching special shells. 
+	Aesthetics
+		X-Find a M32 Grenade model to import
+		
+19/02/24
+X-complete any features not finished from the previous day
+X-Brainstorm features which could be tested and implemented by the 27th
+
+19/02/25
+
+Rounds:
+	-Air burst 
+
+Level Design
+	-Upodate the functionality for how the target spawining works.  
+
+Placed on the back burner
+Rounds:
+	-MP-APERS (Twenty 24-grain metal pellets)
+Funtionality
+	-Parameterize variables
+		-Action	Double-action
+		-Rate of fire	3 rounds/sec (MGL) (rapid fire) 
+		-18-21 rounds/min (sustained)
+		-Muzzle velocity	75 m/s (250 ft/s) (MGL)
+		-Effective firing range	400 m (440 yd) 
+		-800 m (870 yd) (ERLP ammunition)
+		-Maximum firing range	400 m
+	-When switching rounds, add one to the ammo count
 
 19/02/26
 
