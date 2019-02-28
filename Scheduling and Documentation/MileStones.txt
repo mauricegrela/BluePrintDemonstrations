@@ -108,17 +108,15 @@ Rounds:
 19/02/27
 
 Level Design
-	-Upodate the functionality for how the target spawining works.  
+	X-Upodate the functionality for how the target spawining works.  
 
 functionality
-	-tweak the physics properties of each round 
-	x-Add a cross hair to the map
+	X-tweak the physics properties of each round 
+	X-Add a cross hair to the map
 	-add additional hud elements which give the player the following information
-		-Current ammo count
-		-Current round loaded
-		-
+
 	-Rounds
-		-Fix the smoke grenade
-		x-MP-APERS (Twenty 24-grain metal pellets)
+		X-Fix the smoke grenade
+		X-MP-APERS (Twenty 24-grain metal pellets)
 
 
