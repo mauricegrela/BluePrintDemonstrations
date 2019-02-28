@@ -112,13 +112,13 @@ Level Design
 
 functionality
 	-tweak the physics properties of each round 
-	-Add a cross hair to the map
+	x-Add a cross hair to the map
 	-add additional hud elements which give the player the following information
 		-Current ammo count
 		-Current round loaded
 		-
 	-Rounds
 		-Fix the smoke grenade
-		
+		x-MP-APERS (Twenty 24-grain metal pellets)
 
 
